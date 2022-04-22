@@ -9,7 +9,7 @@ const userRoutes = require("./routes/user");
 
 mongoose
   .connect(
-    "mongodb+srv://Younes:heHaysRQ7AVM0HQ2@cluster0.dofu2.mongodb.net/test?retryWrites=true&w=majority",
+    /* "YOUR MONGODB CREDENTIALS" */,
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log("Connexion à MongoDB réussie !"))
